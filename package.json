@@ -1,17 +1,16 @@
 {
   "name": "capstone-vercel-dashboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "15.5.2",
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "next": "15.5.29",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
@@ -20,6 +19,6 @@
     "typescript": "^5.7.0"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=20.9.0"
   }
 }
